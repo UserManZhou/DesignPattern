@@ -3,7 +3,7 @@
  * 版权： 广州市新维数据科技有限公司新架构产品部所有(c) 2026
  * 文件：com.example.designpattern.factory.simpleFactory.factory
  * 所含类: SimpleRouJiaMoFactroy
- * 文件作用描述 TODO
+ * 文件作用描述 简单肉夹馍工厂类
  * 修改记录：
  * 日期                                      作者         版本     内容
  * =============================================================
@@ -14,15 +14,15 @@
 package com.example.designpattern.factory.simpleFactory.factory;
 
 import com.example.designpattern.factory.simpleFactory.constant.RouJiaMoConstant;
-import com.example.designpattern.factory.simpleFactory.repository.LaRouJiaMo;
-import com.example.designpattern.factory.simpleFactory.repository.RouJiaMo;
-import com.example.designpattern.factory.simpleFactory.repository.SuanRouJiaMo;
-import com.example.designpattern.factory.simpleFactory.repository.TianRouJiaMo;
+import com.example.designpattern.factory.simpleFactory.product.LaRouJiaMo;
+import com.example.designpattern.factory.simpleFactory.product.RouJiaMo;
+import com.example.designpattern.factory.simpleFactory.product.SuanRouJiaMo;
+import com.example.designpattern.factory.simpleFactory.product.TianRouJiaMo;
 
 /**
  * <p>Titile:SimpleRouJiaMoFactroy</p >
  * <p>ProjectName: </p >
- * <p>Description:TODO()  </p >
+ * <p>Description:简单肉夹馍工厂类</p >
  * <p>Copyright: Copyright (c) 2023</p >
  * <p>Company: 新维数据 </p >
  *
@@ -30,7 +30,7 @@ import com.example.designpattern.factory.simpleFactory.repository.TianRouJiaMo;
  * @BelongsPackage: com.example.designpattern.factory.simpleFactory.factory
  * @Author: zh
  * @CreateTime: 2026/5/22  16:22
- * @Description: TODO
+ * @Description: 简单肉夹馍工厂类
  * @Version: 1.0
  */
 public class SimpleRouJiaMoFactory {

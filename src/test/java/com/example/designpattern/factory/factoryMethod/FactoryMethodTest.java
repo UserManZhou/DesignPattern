@@ -14,9 +14,9 @@
 package com.example.designpattern.factory.factoryMethod;
 
 import com.example.designpattern.factory.factoryMethod.constant.RouJiaMoConstant;
-import com.example.designpattern.factory.factoryMethod.factory.RouJiaMoStore;
 import com.example.designpattern.factory.factoryMethod.factory.XianSimpleRoujiaMoFactory;
-import com.example.designpattern.factory.factoryMethod.repository.XianRouJiaMoStore;
+import com.example.designpattern.factory.factoryMethod.store.RouJiaMoStore;
+import com.example.designpattern.factory.factoryMethod.store.XianRouJiaMoStore;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

@@ -3,7 +3,7 @@
  * 版权： 广州市新维数据科技有限公司新架构产品部所有(c) 2026
  * 文件：com.example.designpattern.factory.staticFactory.factory
  * 所含类: CarSimpleFactory
- * 文件作用描述 TODO
+ * 文件作用描述 汽车静态工厂类
  * 修改记录：
  * 日期                                      作者         版本     内容
  * =============================================================
@@ -14,14 +14,14 @@
 package com.example.designpattern.factory.staticFactory.factory;
 
 import com.example.designpattern.factory.staticFactory.constant.CarConstant;
-import com.example.designpattern.factory.staticFactory.repository.Audi;
-import com.example.designpattern.factory.staticFactory.repository.Byd;
-import com.example.designpattern.factory.staticFactory.repository.Car;
+import com.example.designpattern.factory.staticFactory.product.Audi;
+import com.example.designpattern.factory.staticFactory.product.Byd;
+import com.example.designpattern.factory.staticFactory.product.Car;
 
 /**
  * <p>Titile:CarSimpleFactory</p >
  * <p>ProjectName: </p >
- * <p>Description:TODO()  </p >
+ * <p>Description:汽车静态工厂类</p >
  * <p>Copyright: Copyright (c) 2023</p >
  * <p>Company: 新维数据 </p >
  *
@@ -29,7 +29,7 @@ import com.example.designpattern.factory.staticFactory.repository.Car;
  * @BelongsPackage: com.example.designpattern.factory.staticFactory.factory
  * @Author: zh
  * @CreateTime: 2026/5/22  10:14
- * @Description: TODO
+ * @Description: 汽车静态工厂类
  * @Version: 1.0
  */
 public class CarSimpleFactory {

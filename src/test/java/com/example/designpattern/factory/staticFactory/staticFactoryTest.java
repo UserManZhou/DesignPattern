@@ -15,7 +15,7 @@ package com.example.designpattern.factory.staticFactory;
 
 import com.example.designpattern.factory.staticFactory.constant.CarConstant;
 import com.example.designpattern.factory.staticFactory.factory.CarSimpleFactory;
-import com.example.designpattern.factory.staticFactory.repository.Car;
+import com.example.designpattern.factory.staticFactory.product.Car;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
