@@ -15,6 +15,7 @@ package com.example.designpattern.singletonPattern;
 
 import com.example.designpattern.singletonPattern.eagerSingleton.NewSingleton;
 import com.example.designpattern.singletonPattern.eagerSingleton.Singleton;
+import com.example.designpattern.singletonPattern.enumSingletion.EnumSingleton;
 import com.example.designpattern.singletonPattern.innerClassSingleton.InnerClassSingleton;
 import com.example.designpattern.singletonPattern.lazySingleton.DoubleCheckLockSingleton;
 import com.example.designpattern.singletonPattern.lazySingleton.ThreadSafeSingleton;
@@ -124,6 +125,21 @@ public class EagerSingletonTest {
         Runnable runnable = () -> {
             InnerClassSingleton singleton = InnerClassSingleton.getInstance();
             System.out.println(singleton + " " + Thread.currentThread().getName());
+        };
+        for (int i = 0; i < 10; i++) {
+            executorService.execute(runnable);
+            executorService.execute(runnable);
+            executorService.execute(runnable);
+            executorService.execute(runnable);
+        }
+        executorService.shutdown();
+    }
+
+    @Test
+    public void test7() {
+        ExecutorService executorService = Executors.newFixedThreadPool(10);
+        Runnable runnable = () -> {
+            System.out.println(EnumSingleton.INSTANCE.toString() + " " + Thread.currentThread().getName());
         };
         for (int i = 0; i < 10; i++) {
             executorService.execute(runnable);
