@@ -38,3 +38,5 @@ out/
 .trae/specs/factory-pattern-analysis/checklist.md
 .trae/specs/factory-pattern-analysis/spec.md
 .trae/specs/factory-pattern-analysis/tasks.md
+/.kilo/
+/.reasonix/
